@@ -1,0 +1,72 @@
+.jumbotron {
+	background-color: #black;
+	position: relative;
+	z-index: 1;
+}
+.headbackground {
+position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: -2;
+}
+.headerimg {
+	position: absolute;
+	bottom: 0;
+	left: 6%;
+	z-index: -1;
+
+}
+.jumbotron h1 {
+	color: #644847;
+	font-size: 70px;
+	letter-spacing: 3px;
+	text-shadow: rgb(135, 229, 71) 2px 0px 0px, rgb(135, 229, 71) 1.75517px 0.958851px 0px, rgb(135, 229, 71) 1.0806px 1.68294px 0px, rgb(135, 229, 71) 0.141474px 1.99499px 0px, rgb(135, 229, 71) -0.832294px 1.81859px 0px, rgb(135, 229, 71) -1.60229px 1.19694px 0px, rgb(135, 229, 71) -1.97998px 0.28224px 0px, rgb(135, 229, 71) -1.87291px -0.701566px 0px, rgb(135, 229, 71) -1.30729px -1.5136px 0px, rgb(135, 229, 71) -0.421592px -1.95506px 0px, rgb(135, 229, 71) 0.567324px -1.91785px 0px, rgb(135, 229, 71) 1.41734px -1.41108px 0px, rgb(135, 229, 71) 1.92034px -0.558831px 0px;
+	z-index: 99;
+}
+.jumbotron p {
+	font-size: 30px;
+	color: #644847;
+	text-shadow: rgb(135, 229, 71) 2px 0px 0px, rgb(135, 229, 71) 1.75517px 0.958851px 0px, rgb(135, 229, 71) 1.0806px 1.68294px 0px, rgb(135, 229, 71) 0.141474px 1.99499px 0px, rgb(135, 229, 71) -0.832294px 1.81859px 0px, rgb(135, 229, 71) -1.60229px 1.19694px 0px, rgb(135, 229, 71) -1.97998px 0.28224px 0px, rgb(135, 229, 71) -1.87291px -0.701566px 0px, rgb(135, 229, 71) -1.30729px -1.5136px 0px, rgb(135, 229, 71) -0.421592px -1.95506px 0px, rgb(135, 229, 71) 0.567324px -1.91785px 0px, rgb(135, 229, 71) 1.41734px -1.41108px 0px, rgb(135, 229, 71) 1.92034px -0.558831px 0px;
+	letter-spacing: 2px;
+	z-index: 99;
+}
+.row {
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+	}
+.gameimg {
+	width: 70%;
+	margin: 30px;
+}
+h2 {
+	padding: 35px 0px 15px 0px;
+}
+h3 {
+	padding-bottom: 20px;
+}
+.column {
+	padding-bottom: 30px;
+	background-color: #32383e;
+}
+.logo {
+	width: 30%;
+}
+.btn {
+	margin-top: 20px;
+}
+footer {
+	background-color: #272b30;
+	color: #c8c8c8
+	font-size: 10px;
+	height: 60px;
+	padding-top: 25px;
+}
+#spanSecretRandom {
+	font-size: 18px;
+}
+.score {
+	padding: 0px 20px;
+}
+#spanWins, #spanLosses, #spanNumGuesses, #spanLettersGuessed, #spanSecretRandom {
+	color: #4dd83e;
+}

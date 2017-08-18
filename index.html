@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hangman | Twins Peaks Edition</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/slate/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+</head>
+
+<body>
+	
+	<div class="jumbotron">
+  		<h1 class="text-center">HANGMAN</h1>
+  		<p class="text-center"><strong>Twin Peaks Edition</strong></p>
+  		<div class="headbackground">
+  			<img class="img-fluid" src="assets/images/forest.png" alt="Forest background"/>
+  		</div>
+  		<div class="headerimg">
+  			<img class="img-fluid" src="assets/images/logcabin.png" alt="Log cabin image" width=1000px/>
+  		</div>
+	</div>
+
+	<div class="container text-center">
+		<div class="row">
+
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 column">
+				<h2 id="gameStatus"></h2>
+				<img class="logo img-fluid" src="assets/images/twinpeaks.png" alt="Twin Peaks Symbol"/>
+				<h4><strong>Current Game</strong></h4>
+				<br/>
+				<span id="spanSecretRandom"></span>
+				<br/>
+				<br/>
+				<br/>
+				<p>Guesses remaining: <span id="spanNumGuesses"></span></p>
+				<p>Letters guessed:</p> 
+				<p><span id="spanLettersGuessed"></span></p>
+			</div>
+
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 column">
+				<img id="gameimg" class="gameimg border rounded" src="assets/images/tpwelcome.jpg" alt="Weirdos Welcome"/>
+				<h3><strong>Score</strong></h3>
+
+				<span class="score">Wins: <span id="spanWins"></span></span>
+				<span class="score">Losses: <span id="spanLosses"></span></span>
+				<br/>
+				<button class="btn btn-dark" type="button" onclick="newGame();">Play again?</button>
+			</div>
+
+		</div>
+	</div>
+	
+	<footer class="footer">
+		<div class="container">
+	    	<p class="footer-block text-center">Copyright &copy; 2017 Natalie Loman</p>
+	    </div>
+	</footer>
+
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
