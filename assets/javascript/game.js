@@ -7,7 +7,6 @@ var secretPhrase;
 var phraseArray = [];
 var blankArray = [];
 var lettersGuessed = [];
-var letterIndex;
 var currentGuess;
 var validKeys = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 
